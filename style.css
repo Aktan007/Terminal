@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./assets/static/JetBrainsMono-Medium.ttf");
+}
+
+body {
+    background-color: rgb(101, 51, 101);
+}
+
+.terminal {
+    padding: 20px 30px;
+    color: #fff;
+    background-color: #263238;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 50%;
+    right: 50%;
+    width: 650px;
+    height: 190px;
+}
+
+.terminal__header {
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.terminal__header .button{
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border: none;
+    padding: 0;
+}
+
+.terminal__header .red {
+    background-color: #ff5f56;
+}
+
+.terminal__header .yellow{
+    background-color: #ffbd2e;
+}
+
+.terminal__header .green{
+    background-color: #27c93f;
+}
+
+pre {
+    margin: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.terminal__code {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "JetBrains Mono";
+    color: #fff;
+}
+
+.tag {
+    color: #ff5370;
+}
+
+.atribut {
+    color: #ffcb6b;
+}
+
+.value {
+    color: #c3e88d;
+}
+
+
+
